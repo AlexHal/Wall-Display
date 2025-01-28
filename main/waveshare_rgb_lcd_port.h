@@ -13,6 +13,9 @@
 #include "lv_demos.h"
 #include "lvgl_port.h"
 
+
+
+
 #define I2C_MASTER_SCL_IO           9       /*!< GPIO number used for I2C master clock */
 #define I2C_MASTER_SDA_IO           8       /*!< GPIO number used for I2C master data  */
 #define I2C_MASTER_NUM              0       /*!< I2C master i2c port number, the number of i2c peripheral interfaces available will depend on the chip */
@@ -74,5 +77,6 @@ esp_err_t wavesahre_rgb_lcd_bl_on();
 esp_err_t wavesahre_rgb_lcd_bl_off();
 
 void example_lvgl_demo_ui();
+
 
 #endif

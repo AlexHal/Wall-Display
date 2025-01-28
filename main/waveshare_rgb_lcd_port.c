@@ -267,3 +267,7 @@ void example_lvgl_demo_ui() // LVGL demo UI initialization function
 
     lv_timer_create(add_data, 100, chart); // Create a timer to add new data every 100ms 
 }
+
+
+
+
